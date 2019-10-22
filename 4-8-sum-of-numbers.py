@@ -11,14 +11,14 @@
 total = 0
 
 # Prompts the user for the first number
-number = input('Enter a positive number (negative to quit): ')
+number = float(input('Enter a positive number (negative to quit): '))
 
 # Loops while the number is positive
 while number > 0:
     total += number
 
     # Prompt user for the next number in the sequence
-    number = input('Enter a positive number (negative to quit): ')
+    number = float(input('Enter a positive number (negative to quit): '))
 
 # Prints the total
 print(f'Total = {total}')
