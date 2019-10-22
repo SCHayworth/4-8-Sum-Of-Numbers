@@ -13,6 +13,8 @@ Write a program with a loop that asks the user to enter a series of positive num
     START
     set total = 0
     Prompt user for the first number or a negative number to quit
-    WHILE number to sum is not negative
-        prompt user for a positive number or a negative number to quit
+    WHILE number is positive
+      add number to Total
+      prompt user for the next number to total
+    Print total
     END
