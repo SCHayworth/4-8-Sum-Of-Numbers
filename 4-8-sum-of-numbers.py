@@ -14,7 +14,7 @@ total = 0
 number = input('Enter a positive number (negative to quit): ')
 
 # Loops while the number is positive
-while number !< 0:
+while number > 0:
     total += number
 
     # Prompt user for the next number in the sequence
