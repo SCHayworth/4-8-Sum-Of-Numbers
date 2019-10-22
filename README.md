@@ -1,2 +1,2 @@
-# 0-0-CIS-2-Program-Template
- A template repository for CIS 2 Python projects
+# 4-8 Sum of Numbers
+Calculates a series of user supplied numbers, checks for a sentinel value to end the sequence.
